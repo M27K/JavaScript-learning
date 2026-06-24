@@ -50,9 +50,12 @@ Alliance.fyReport(...Alliance.firstYear, Alliance.fyCourse);
 
 //spread Op for Objects in ES18 updates
 //Before that for objects spred op will not work.
-
 const AlliancCopy = {...Alliance}
 console.log(AlliancCopy)
 
+
+//Updating Object Values
+AlliancCopy.sem = 5
+console.log(Alliance.sem, AlliancCopy.sem);
 
 
