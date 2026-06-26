@@ -35,13 +35,13 @@ Alliance = {
     );
   },
 
-  CourseDuration : function(...name){
+  CourseDuration: function (...name) {
     console.log(name);
-    for(let i = 0; i < name.length; i++){
-        // console.log(name[i])
-        console.log(name[i] , ":", this.courses[name[i]])
+    for (let i = 0; i < name.length; i++) {
+      // console.log(name[i])
+      console.log(name[i], ":", this.courses[name[i]]);
     }
-  }
+  },
 };
 
 //what is Rest Op ?
@@ -55,4 +55,9 @@ console.log(Dept, moreInfo);
 
 //Using Rest Op in function
 const course = ["bclr", "pip", "pp", "lbj"];
-Alliance.CourseDuration(...course)
+Alliance.CourseDuration(...course);
+
+
+
+
+
